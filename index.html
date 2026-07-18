@@ -1,0 +1,1068 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qulancar Satışı | Təzə, Keyfiyyətli, Sürətli Çatdırılma</title>
+  <meta name="description" content="Qulancar satışı: 1 kq 25 AZN. Şəhərdaxili pulsuz çatdırılma. WhatsApp vasitəsilə rahat sifariş." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --fon: #f1efe7;
+      --kart: #fffdf7;
+      --mətn: #152019;
+      --solğun: #5a635b;
+      --yaşıl: #225a34;
+      --yaşıl-tünd: #123321;
+      --qızılı: #ba995c;
+      --vurğu: #1c8f40;
+      --vurğu-hover: #166b31;
+      --kölgə: 0 18px 40px rgba(22, 41, 29, 0.1);
+      --simmetrik-kart-h: 56px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--mətn);
+      font-family: "Manrope", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(1100px 620px at -2% -12%, rgba(186, 153, 92, 0.18), transparent 60%),
+        radial-gradient(900px 540px at 104% 8%, rgba(34, 90, 52, 0.16), transparent 62%),
+        linear-gradient(180deg, #f8f6ee 0%, #f1efe7 48%, #ebe5d8 100%);
+      line-height: 1.6;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image: radial-gradient(rgba(0, 0, 0, 0.05) 0.5px, transparent 0.5px);
+      background-size: 3px 3px;
+      opacity: 0.16;
+      z-index: -1;
+    }
+
+    .çərçivə {
+      width: min(1200px, 92vw);
+      margin: 0 auto;
+    }
+
+    .üst-panel {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      padding: 26px 0 14px;
+      animation: yuxarıdan 700ms ease;
+    }
+
+    .brend {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--yaşıl-tünd);
+    }
+
+    .brend svg {
+      width: 42px;
+      height: 42px;
+    }
+
+    .brend strong {
+      font-family: "Playfair Display", serif;
+      font-size: 1.34rem;
+      letter-spacing: 0.02em;
+    }
+
+    .logo-fon {
+      width: auto;
+      height: auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+    }
+
+    .mini-logo {
+      width: 86px;
+      height: 86px;
+      object-fit: contain;
+      display: block;
+      mix-blend-mode: normal;
+      filter: none;
+    }
+
+    .etiket {
+      border-radius: 999px;
+      border: 1px solid rgba(24, 51, 36, 0.18);
+      background: rgba(255, 255, 255, 0.72);
+      backdrop-filter: blur(6px);
+      color: var(--yaşıl-tünd);
+      font-weight: 700;
+      font-size: 0.86rem;
+      padding: 10px 15px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      align-items: stretch;
+      margin-top: 10px;
+    }
+
+    .hero-sol {
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.82), rgba(255, 251, 242, 0.76));
+      border: 1px solid rgba(24, 51, 36, 0.12);
+      border-radius: 26px;
+      padding: 34px clamp(18px, 3vw, 34px);
+      box-shadow: var(--kölgə);
+      animation: yuxarıdan 800ms ease;
+    }
+
+    .hero-sol h1 {
+      margin: 0 0 14px;
+      font-family: "Playfair Display", serif;
+      font-size: clamp(2rem, 4.7vw, 4rem);
+      line-height: 0.96;
+      color: var(--yaşıl-tünd);
+      letter-spacing: 0.01em;
+    }
+
+    .hero-sol p {
+      margin: 0;
+      color: var(--solğun);
+      font-size: clamp(1rem, 1.6vw, 1.14rem);
+      max-width: 58ch;
+    }
+
+    .qiymət-paneli {
+      margin-top: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      border: 1px solid rgba(185, 150, 86, 0.42);
+      border-radius: 16px;
+      background: linear-gradient(180deg, rgba(185, 150, 86, 0.16), rgba(185, 150, 86, 0.08));
+      padding: 12px 14px;
+    }
+
+    .qiymət-paneli b {
+      font-size: 1.05rem;
+      color: var(--yaşıl-tünd);
+    }
+
+    .qiymət-paneli span {
+      color: var(--solğun);
+      font-size: 0.93rem;
+    }
+
+    .düymələr {
+      margin-top: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .düymə {
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 800;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 16px;
+      transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+    }
+
+    .düymə:focus-visible {
+      outline: 2px solid var(--yaşıl);
+      outline-offset: 3px;
+    }
+
+    .düymə-əsas {
+      color: #fff;
+      background: linear-gradient(180deg, #24a74b 0%, var(--vurğu) 100%);
+      box-shadow: 0 14px 26px rgba(31, 143, 66, 0.24);
+    }
+
+    .düymə-əsas:hover {
+      transform: translateY(-1px);
+      background: linear-gradient(180deg, #1f9242 0%, var(--vurğu-hover) 100%);
+    }
+
+    .düymə-köməkçi {
+      color: var(--yaşıl-tünd);
+      border: 1px solid rgba(24, 51, 36, 0.2);
+      background: rgba(255, 255, 255, 0.8);
+    }
+
+    .hero-media {
+      border-radius: 26px;
+      overflow: hidden;
+      border: 1px solid rgba(24, 51, 36, 0.12);
+      box-shadow: var(--kölgə);
+      min-height: 420px;
+      animation: yuxarıdan 900ms ease;
+      position: relative;
+    }
+
+    .hero-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .media-bant {
+      position: absolute;
+      left: 14px;
+      top: 14px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(18, 51, 33, 0.18);
+      border-radius: 12px;
+      padding: 8px 10px;
+      font-size: 0.84rem;
+      font-weight: 800;
+      color: var(--yaşıl-tünd);
+    }
+
+    .blok {
+      margin-top: 20px;
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.85), rgba(255, 250, 242, 0.72));
+      border: 1px solid rgba(24, 51, 36, 0.11);
+      border-radius: 24px;
+      padding: 22px clamp(16px, 2.8vw, 26px);
+      box-shadow: var(--kölgə);
+    }
+
+    .başlıq {
+      margin: 0 0 14px;
+      font-family: "Playfair Display", serif;
+      color: var(--yaşıl-tünd);
+      font-size: clamp(1.5rem, 2.1vw, 2.05rem);
+      line-height: 1.2;
+    }
+
+    .sətir {
+      margin: 0;
+      color: var(--solğun);
+    }
+
+    .grid-3 {
+      margin-top: 16px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .kart {
+      background: var(--kart);
+      border: 1px solid rgba(24, 51, 36, 0.1);
+      border-radius: 16px;
+      padding: 14px;
+    }
+
+    .qalereya {
+      margin-top: 14px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .qalereya figure {
+      margin: 0;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(18, 51, 33, 0.14);
+      box-shadow: 0 10px 22px rgba(18, 34, 24, 0.1);
+      background: #fff;
+    }
+
+    .qalereya img {
+      width: 100%;
+      display: block;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+
+    .qalereya figcaption {
+      font-size: 0.84rem;
+      color: var(--solğun);
+      padding: 8px 10px;
+      border-top: 1px solid rgba(18, 51, 33, 0.1);
+    }
+
+    .kart h3 {
+      margin: 0 0 6px;
+      color: var(--yaşıl-tünd);
+      font-size: 1rem;
+    }
+
+    .kart h3 a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px dashed rgba(18, 51, 33, 0.35);
+      transition: color 160ms ease, border-color 160ms ease;
+    }
+
+    .kart h3 a:hover {
+      color: var(--yaşıl);
+      border-color: rgba(34, 90, 52, 0.8);
+    }
+
+    .kart p {
+      margin: 0;
+      color: var(--solğun);
+      font-size: 0.95rem;
+    }
+
+    .proses {
+      margin-top: 16px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+
+    .addım {
+      border-radius: 14px;
+      border: 1px dashed rgba(24, 51, 36, 0.26);
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.66);
+    }
+
+    .addım b {
+      display: block;
+      color: var(--yaşıl-tünd);
+      margin-bottom: 4px;
+      font-size: 0.95rem;
+    }
+
+    .addım span {
+      color: var(--solğun);
+      font-size: 0.9rem;
+    }
+
+    .iki-sütun {
+      margin-top: 16px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .rəylər {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 10px;
+    }
+
+    .rəylər li {
+      border: 1px solid rgba(24, 51, 36, 0.12);
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.84);
+      padding: 10px 12px;
+      color: var(--solğun);
+      font-size: 0.92rem;
+      min-height: var(--simmetrik-kart-h);
+      height: var(--simmetrik-kart-h);
+      display: flex;
+      align-items: center;
+    }
+
+    .faq {
+      display: grid;
+      gap: 10px;
+      margin-top: 0;
+    }
+
+    details {
+      border: 1px solid rgba(24, 51, 36, 0.12);
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.86);
+      padding: 0 12px;
+      min-height: var(--simmetrik-kart-h);
+      height: var(--simmetrik-kart-h);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    details[open] {
+      height: auto;
+      padding: 10px 12px;
+      justify-content: flex-start;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 700;
+      color: var(--yaşıl-tünd);
+      list-style: none;
+      min-height: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    details[open] summary {
+      min-height: 0;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details p {
+      margin: 8px 0 2px;
+      color: var(--solğun);
+      font-size: 0.92rem;
+    }
+
+    .son-cta {
+      text-align: center;
+      margin: 22px 0 34px;
+      border-radius: 24px;
+      border: 1px solid rgba(24, 51, 36, 0.12);
+      background:
+        radial-gradient(600px 240px at 50% -10%, rgba(185, 150, 86, 0.26), transparent 70%),
+        linear-gradient(180deg, rgba(255, 254, 250, 0.95), rgba(243, 234, 216, 0.86));
+      padding: 24px 16px;
+      box-shadow: var(--kölgə);
+    }
+
+    .son-cta h2 {
+      margin: 0 0 10px;
+      font-family: "Playfair Display", serif;
+      color: var(--yaşıl-tünd);
+      font-size: clamp(1.45rem, 2.2vw, 2.1rem);
+      line-height: 1.2;
+    }
+
+    .son-cta p {
+      margin: 0 0 14px;
+      color: var(--solğun);
+    }
+
+    .əlavə {
+      margin-top: 10px;
+      color: var(--solğun);
+      font-size: 0.92rem;
+    }
+
+    .destek {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .destek::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: radial-gradient(500px 180px at 100% 0%, rgba(28, 143, 64, 0.1), transparent 70%);
+    }
+
+    .destek-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    .destek-form,
+    .destek-panel {
+      border: 1px solid rgba(24, 51, 36, 0.12);
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 14px;
+    }
+
+    .destek-form {
+      display: grid;
+      gap: 10px;
+    }
+
+    .destek-form label {
+      font-size: 0.9rem;
+      color: var(--yaşıl-tünd);
+      font-weight: 700;
+    }
+
+    .destek-form input,
+    .destek-form select,
+    .destek-form textarea {
+      width: 100%;
+      border: 1px solid rgba(24, 51, 36, 0.2);
+      border-radius: 12px;
+      background: #fff;
+      color: var(--mətn);
+      padding: 10px 12px;
+      font: inherit;
+    }
+
+    .destek-form textarea {
+      min-height: 110px;
+      resize: vertical;
+    }
+
+    .destek-form input:focus,
+    .destek-form select:focus,
+    .destek-form textarea:focus {
+      outline: 2px solid rgba(28, 143, 64, 0.35);
+      border-color: rgba(28, 143, 64, 0.55);
+      outline-offset: 2px;
+    }
+
+    .destek-status {
+      margin-top: 6px;
+      font-size: 0.9rem;
+      color: var(--solğun);
+    }
+
+    .destek-panel h3 {
+      margin: 0 0 8px;
+      color: var(--yaşıl-tünd);
+      font-family: "Playfair Display", serif;
+      font-size: 1.15rem;
+    }
+
+    .destek-panel ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--solğun);
+      font-size: 0.93rem;
+      display: grid;
+      gap: 6px;
+    }
+
+    .destek-note {
+      margin-top: 10px;
+      font-size: 0.88rem;
+      color: var(--solğun);
+      border-top: 1px dashed rgba(24, 51, 36, 0.22);
+      padding-top: 8px;
+    }
+
+    @keyframes yuxarıdan {
+      from {
+        opacity: 0;
+        transform: translateY(14px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 980px) {
+      .üst-panel {
+        align-items: flex-start;
+      }
+
+      .etiket {
+        align-self: flex-start;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-media {
+        min-height: 380px;
+      }
+
+      .grid-3,
+      .iki-sütun,
+      .destek-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .qalereya {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .proses {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .çərçivə {
+        width: min(1200px, 94vw);
+      }
+
+      .üst-panel {
+        padding: 16px 0 10px;
+        gap: 10px;
+      }
+
+      .brend {
+        gap: 10px;
+      }
+
+      .brend strong {
+        font-size: 1.1rem;
+      }
+
+      .mini-logo {
+        width: 72px;
+        height: 72px;
+      }
+
+      .hero {
+        gap: 14px;
+      }
+
+      .hero-sol,
+      .blok,
+      .son-cta {
+        border-radius: 18px;
+        padding: 18px 14px;
+      }
+
+      .destek-form,
+      .destek-panel {
+        border-radius: 14px;
+      }
+
+      .hero-sol h1 {
+        font-size: clamp(1.65rem, 7vw, 2.2rem);
+        line-height: 1.06;
+      }
+
+      .hero-sol p,
+      .sətir,
+      .kart p,
+      .addım span,
+      .rəylər li,
+      details p,
+      .son-cta p {
+        font-size: 0.95rem;
+      }
+
+      .qiymət-paneli {
+        align-items: flex-start;
+      }
+
+      .qiymət-paneli b {
+        width: 100%;
+      }
+
+      .düymələr {
+        flex-direction: column;
+      }
+
+      .düymə {
+        width: 100%;
+        min-height: 46px;
+      }
+
+      .hero-media {
+        min-height: 320px;
+      }
+
+      .media-bant {
+        font-size: 0.78rem;
+        padding: 6px 8px;
+      }
+
+      .başlıq {
+        font-size: clamp(1.3rem, 5.2vw, 1.7rem);
+      }
+
+      .son-cta h2 {
+        font-size: clamp(1.3rem, 5.6vw, 1.65rem);
+      }
+    }
+
+    @media (max-width: 620px) {
+      .üst-panel {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .etiket {
+        font-size: 0.8rem;
+      }
+
+      .proses {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-media {
+        min-height: 270px;
+      }
+
+      .qalereya {
+        grid-template-columns: 1fr;
+      }
+
+      .kart h3,
+      .addım b,
+      summary {
+        font-size: 0.96rem;
+      }
+    }
+
+    @media (max-width: 412px) {
+      .çərçivə {
+        width: 95vw;
+      }
+
+      .üst-panel {
+        gap: 8px;
+        padding: 12px 0 8px;
+      }
+
+      .brend strong {
+        font-size: 1rem;
+      }
+
+      .mini-logo {
+        width: 66px;
+        height: 66px;
+      }
+
+      .etiket {
+        font-size: 0.76rem;
+        padding: 8px 11px;
+      }
+
+      .hero-sol h1 {
+        font-size: clamp(1.5rem, 7.2vw, 1.9rem);
+      }
+
+      .hero-media {
+        min-height: 245px;
+      }
+
+      .media-bant {
+        left: 10px;
+        top: 10px;
+        font-size: 0.72rem;
+      }
+    }
+
+    @media (max-width: 390px) {
+      .hero-sol,
+      .blok,
+      .son-cta {
+        padding: 14px 12px;
+        border-radius: 14px;
+      }
+
+      .hero-sol h1 {
+        font-size: clamp(1.35rem, 7.8vw, 1.75rem);
+        line-height: 1.08;
+      }
+
+      .hero-sol p,
+      .sətir,
+      .kart p,
+      .addım span,
+      .rəylər li,
+      details p,
+      .son-cta p {
+        font-size: 0.9rem;
+      }
+
+      .düymə {
+        min-height: 44px;
+        font-size: 0.92rem;
+      }
+
+      .qiymət-paneli b {
+        font-size: 1rem;
+      }
+
+      .hero-media {
+        min-height: 225px;
+      }
+    }
+
+    @media (max-width: 360px) {
+      .mini-logo {
+        width: 60px;
+        height: 60px;
+      }
+
+      .brend strong {
+        font-size: 0.94rem;
+      }
+
+      .etiket {
+        font-size: 0.72rem;
+        padding: 7px 10px;
+      }
+
+      .hero-sol h1 {
+        font-size: clamp(1.26rem, 8.6vw, 1.55rem);
+      }
+
+      .hero-media {
+        min-height: 210px;
+      }
+
+      .kart {
+        padding: 12px;
+      }
+
+      .kart h3,
+      .addım b,
+      summary {
+        font-size: 0.92rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="çərçivə">
+    <header class="üst-panel">
+      <a class="brend" href="#yuxari" aria-label="Qulancar Premium loqosu">
+        <span class="logo-fon">
+          <img class="mini-logo" src="assets/logo-new-clean.png" alt="Qulancar loqosu" />
+        </span>
+        <strong>Qulancar Premium</strong>
+      </a>
+      <div class="etiket">1 kq 25 AZN | Şəhərdaxili pulsuz çatdırılma</div>
+    </header>
+
+    <main id="yuxari" class="hero">
+      <section class="hero-sol">
+        <h1>Süfrən üçün təzə, keyfiyyətli və seçilmiş qulancar</h1>
+        <p>
+          Vitamin və minerallarla zəngin təbiətin tərəvəzi süfrənizə gəlsin!
+        </p>
+        <div class="qiymət-paneli">
+          <b>1 kq = 25 AZN</b>
+          <span>Sabit qiymət</span>
+        </div>
+        <div class="düymələr">
+          <a class="düymə düymə-əsas" href="https://wa.me/994555445975?text=Salam.%20Qulancar%20sifari%C5%9Fi%20verm%C9%99k%20ist%C9%99yir%C9%99m.%201%20kq%20qiym%C9%99t%20v%C9%99%20%C3%A7atd%C4%B1r%C4%B1lma%20haqq%C4%B1nda%20m%C9%99lumat%20verin." target="_blank" rel="noopener noreferrer">WhatsApp ilə sifariş et</a>
+          <a class="düymə düymə-köməkçi" href="#məlumat">Ətraflı məlumat</a>
+        </div>
+      </section>
+
+      <aside class="hero-media" aria-label="Qulancar əsas vizualı">
+        <img src="assets/poster-2.png" alt="Qulancar satış vizualı" />
+        <div class="media-bant">100% orqanik məhsul</div>
+      </aside>
+    </main>
+
+    <section id="məlumat" class="blok" aria-label="Məhsul üstünlükləri">
+      <h2 class="başlıq">Niyə Qulancar Premium?</h2>
+      <p class="sətir">Məhsulun keyfiyyətini və xidmətin səviyyəsini bir yerdə təqdim edirik.</p>
+      <div class="grid-3">
+        <article class="kart">
+          <h3>Seçilmiş məhsul</h3>
+          <p>Yalnız sağlam və təzə qulancar bağlamaları seçilir.</p>
+        </article>
+        <article class="kart">
+          <h3>Gündəlik tədarük</h3>
+          <p>Təzəlik səviyyəsini qorumaq üçün gündəlik seçim və hazırlıq aparılır.</p>
+        </article>
+        <article class="kart">
+          <h3>Rahat sifariş</h3>
+          <p>Sifariş prosesi WhatsApp üzərindən bir neçə mesajla tamamlanır.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="faydalar" class="blok" aria-label="Qulancarın faydaları">
+      <h2 class="başlıq">Qulancarın faydaları</h2>
+      <p class="sətir">Lif, vitamin, aşağı kalori, antioksidant, mineral və asan istifadə mövzularını ayrıca səhifədə daha detallı gör.</p>
+      <div class="grid-3">
+        <article class="kart">
+          <h3><a href="qulancarin-faydalar.html">Qulancarın faydaları</a></h3>
+          <p>Bu bölmədə bütün fayda mövzuları bir yerdə və detallı şəkildə açılır.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="blok" aria-label="İstifadə sahələri">
+      <h2 class="başlıq">Qulancarı necə istifadə edə bilərsən?</h2>
+      <p class="sətir">Səhər yeməyindən şam süfrəsinə qədər bir çox yeməkdə zərif və faydalı seçimdir.</p>
+      <div class="grid-3">
+        <article class="kart">
+          <h3><a href="qril-ve-soba.html">Qril və soba yeməkləri</a></h3>
+          <p>Ət və balıq menyusu ilə ideal uyğunluq yaradır.</p>
+        </article>
+        <article class="kart">
+          <h3><a href="salat-ve-isti-qelyanalti.html">Salat və isti qəlyanaltı</a></h3>
+          <p>Yüngül, vitaminli və təqdimatı gözoxşayan reseptlər üçün uyğundur.</p>
+        </article>
+        <article class="kart">
+          <h3><a href="restoran-seviyyesi-teqdimat.html">Restoran səviyyəli təqdimat</a></h3>
+          <p>Ev mətbəxində daha elit görünüş və dad balansı üçün effektiv seçimdir.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="blok" aria-label="Sifariş prosesi">
+      <h2 class="başlıq">Sifariş prosesi</h2>
+      <p class="sətir">Maksimum sadə və şəffaf addımlar.</p>
+      <div class="proses">
+        <div class="addım">
+          <b>1. Yaz</b>
+          <span>WhatsApp-da "sifariş" mesajını göndər.</span>
+        </div>
+        <div class="addım">
+          <b>2. Təsdiq et</b>
+          <span>Miqdarı və ünvanı dəqiqləşdir.</span>
+        </div>
+        <div class="addım">
+          <b>3. Hazırlayaq</b>
+          <span>Sifarişin diqqətlə qablaşdırılır.</span>
+        </div>
+        <div class="addım">
+          <b>4. Çatdıraq</b>
+          <span>Şəhər daxilində pulsuz çatdırılır.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="blok" aria-label="Məhsul qalereyası">
+      <h2 class="başlıq">Məhsul vizualları</h2>
+      <div class="qalereya">
+        <figure>
+          <img src="assets/poster-1.png" alt="Qulancar satış posteri bir" />
+        </figure>
+        <figure>
+          <img src="assets/poster-3.png" alt="Qulancar satış posteri iki" />
+        </figure>
+        <figure>
+          <img src="assets/poster-4.png" alt="Qulancar satış posteri üç" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="blok" aria-label="Etibar və sual cavab">
+      <h2 class="başlıq">Etibar və məlumat</h2>
+      <div class="iki-sütun">
+        <div>
+          <ul class="rəylər">
+            <li>Məhsul görünüşü təmiz və ölçüsü balanslı olur.</li>
+            <li>Çatdırılma sürətli və qablaşdırma səliqəli olur.</li>
+            <li>Qiymət sabit olduğu üçün sifariş qərarı rahat verilir.</li>
+          </ul>
+        </div>
+        <div>
+          <div class="faq">
+            <details>
+              <summary>Çatdırılma hansı ərazilərə edilir?</summary>
+              <p>Şəhərdaxili ünvanlara pulsuz çatdırılma mövcuddur.</p>
+            </details>
+            <details>
+              <summary>Ödəniş necə həyata keçirilir?</summary>
+              <p>Sifariş təsdiqindən sonra ödəniş qaydası mesajla dəqiqləşdirilir.</p>
+            </details>
+            <details>
+              <summary>Topdan sifariş mümkündür?</summary>
+              <p>Bəli, topdan və təkrar sifarişlər üçün ayrıca təklif təqdim edilir.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="canli-destek" class="blok destek" aria-label="7/24 canlı dəstək forması">
+      <h2 class="başlıq">7/24 canlı dəstək</h2>
+      <p class="sətir">Sualın, təklifin və ya sifarişlə bağlı çətinliyin varsa, formanı doldur. Komandamız ən qısa zamanda cavab verir.</p>
+      <div class="destek-grid">
+        <form id="canliDestekForm" class="destek-form">
+          <label for="destekAd">Ad və soyad</label>
+          <input id="destekAd" name="ad" type="text" placeholder="Məs: Aysel Məmmədova" required />
+
+          <label for="destekNomre">Əlaqə nömrəsi</label>
+          <input id="destekNomre" name="nomre" type="tel" placeholder="+994 XX XXX XX XX" required />
+
+          <label for="destekMovzu">Mövzu</label>
+          <select id="destekMovzu" name="movzu" required>
+            <option value="">Seçim et</option>
+            <option value="Sifariş">Sifariş</option>
+            <option value="Çatdırılma">Çatdırılma</option>
+            <option value="Topdan təklif">Topdan təklif</option>
+            <option value="Digər">Digər</option>
+          </select>
+
+          <label for="destekMesaj">Mesajın</label>
+          <textarea id="destekMesaj" name="mesaj" placeholder="Qısa olaraq sualını yaz..." required></textarea>
+
+          <button class="düymə düymə-əsas" type="submit">Canlı dəstəyə göndər</button>
+          <div id="destekStatus" class="destek-status" aria-live="polite"></div>
+        </form>
+
+        <aside class="destek-panel" aria-label="Dəstək məlumatı">
+          <h3>Dəstək xətti</h3>
+          <ul>
+            <li>24/7 WhatsApp üzərindən cavablandırma</li>
+            <li>Təxmini ilk cavab müddəti: 5-15 dəqiqə</li>
+            <li>Təcili sifarişlərdə prioritet dəstək</li>
+            <li>Topdan alış üçün ayrıca menecer dəstəyi</li>
+          </ul>
+          <div class="destek-note">Göndər düyməsinə basdıqda məlumatın WhatsApp mesajı kimi avtomatik hazırlanır.</div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="son-cta" aria-label="Əsas çağırış">
+      <h2>Sifariş üçün bir mesaj kifayətdir</h2>
+      <p>Qulancar Premium ilə süfrənə təzəlik, keyfiyyət və rahatlıq gətir.</p>
+      <a class="düymə düymə-əsas" href="https://wa.me/994555445975?text=Salam.%20M%C9%99n%20Qulancar%20Premium%20%C3%BC%C3%A7%C3%BCn%20sifari%C5%9F%20verm%C9%99k%20ist%C9%99yir%C9%99m.%20Z%C9%99hm%C9%99t%20olmasa%20m%C9%99lumat%20verin." target="_blank" rel="noopener noreferrer">İndi WhatsApp-a yaz</a>
+      <div class="əlavə">Əlaqə nömrəsi: +994 55 544 59 75</div>
+    </section>
+  </div>
+
+  <script>
+    (function () {
+      const form = document.getElementById("canliDestekForm");
+      const status = document.getElementById("destekStatus");
+      if (!form || !status) return;
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const ad = form.ad.value.trim();
+        const nomre = form.nomre.value.trim();
+        const movzu = form.movzu.value.trim();
+        const mesaj = form.mesaj.value.trim();
+
+        if (!ad || !nomre || !movzu || !mesaj) {
+          status.textContent = "Zəhmət olmasa bütün sahələri doldur.";
+          return;
+        }
+
+        const metn = [
+          "Salam, 7/24 canlı dəstək formasını doldurdum.",
+          "Ad və soyad: " + ad,
+          "Əlaqə nömrəsi: " + nomre,
+          "Mövzu: " + movzu,
+          "Mesaj: " + mesaj
+        ].join("\n");
+
+        const url = "https://wa.me/994555445975?text=" + encodeURIComponent(metn);
+        window.open(url, "_blank", "noopener,noreferrer");
+        status.textContent = "Məlumatın WhatsApp-a göndərilmək üçün hazırlandı.";
+      });
+    })();
+  </script>
+</body>
+</html>
